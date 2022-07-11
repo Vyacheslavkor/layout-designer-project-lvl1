@@ -101,9 +101,36 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .content {
   width: 1110px;
+}
+
+.columns-2 {
+  position: absolute;
+  top: 543px;
+
+  display: flex;
+  align-items: flex-start;
+
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.column {
+  flex-basis: 540px;
+}
+
+#orange-button {
+  padding: 12px 24px;
+
+  color: var(--white-color);
+  font: bold 16px "Open Sans", sans-serif;
+  text-transform: uppercase;
+
+  background-color: var(--main-color);
+
+  border-style: none;
 }

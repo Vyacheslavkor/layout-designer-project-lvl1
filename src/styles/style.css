@@ -222,6 +222,7 @@ header::before {
 .navigation-link h1 {
   font-weight: normal;
   font-size: 64px;
+  line-height: 1;
   color: var(--main-dark-color);
   margin-bottom: 40px;
 }

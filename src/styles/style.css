@@ -6,7 +6,7 @@
   --main-color: #fe8a02;
   --main-dark-color: #42413c;
   --semi-dark-color: #908d8b;
-  --bworn-color: #b09a81;
+  --brown-color: #b09a81;
   --blue-color: #1085c5;
 }
 
@@ -55,6 +55,7 @@ body {
   font: 16px/1.6em "Open Sans", sans-serif;
 }
 
+#ikea-effect,
 header {
   position: relative;
 
@@ -77,6 +78,7 @@ section {
   margin-bottom: 30px;
 }
 
+#ikea-effect::before,
 header::before {
   position: absolute;
   top: 0;
@@ -249,4 +251,54 @@ header::before {
 .navigation-link:hover > h3,
 .navigation-link:hover > p {
   color: var(--white-color);
+}
+
+#ikea-effect {
+  top: -300px;
+}
+
+.ikea-image {
+  vertical-align: middle;
+  width: 578px;
+  height: 434px;
+  margin-right: 30px;
+}
+
+.ikea-image-head {
+  display: flex;
+}
+
+.cognitive-distortions {
+  font: normal 24px/29px Neucha, sans-serif;
+}
+
+.color-secondary {
+  color: var(--semi-dark-color);
+}
+
+.cognitive-distortions-name {
+  font: normal 60px/72px Neucha, sans-serif;
+
+  margin-bottom: 30px;
+}
+
+.cognitive-distortions-description {
+  font: normal 34px/41px Neucha, sans-serif;
+}
+
+.how {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font: 700 14px/17px "Open Sans", sans-serif;
+  padding: 10px 5px;
+}
+
+.how-brown {
+  background: var(--brown-color);
+  color: var(--white-color);
+}
+
+.avoid-break {
+  break-inside: avoid;
 }

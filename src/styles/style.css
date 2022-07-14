@@ -50,6 +50,8 @@ h3 {
 }
 
 body {
+  position: relative;
+
   margin: 0;
   overflow-x: hidden;
 
@@ -65,6 +67,7 @@ body {
   background: var(--brown-color);
 }
 
+.input,
 section,
 header {
   position: relative;
@@ -259,6 +262,10 @@ p {
   color: var(--white-color);
 }
 
+.footer-field > h3 {
+  width: calc(1110px - 110px - 50% - 15px);
+}
+
 .navigation-link:hover > h1,
 .navigation-link:hover > h3,
 .navigation-link:hover > p {
@@ -325,4 +332,72 @@ p {
 
 .white {
   color: var(--white-color);
+}
+
+footer {
+  position: absolute;
+  top: calc(100% - 300px);
+  left: 0;
+  right: 0;
+}
+
+.footer-field {
+  margin: 0 auto;
+  padding: 55px;
+
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+
+  background: var(--main-dark-color);
+}
+
+.mail-input {
+  padding: 15px;
+  height: 50px;
+  width: 415px;
+  border: 0;
+  margin-top: 9px;
+}
+
+.mail {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.service {
+  font-size: 12px;
+}
+
+.send {
+  position: absolute;
+  top: 9px;
+  left: 415px;
+  right: 0;
+  background: var(--main-color) url("../images/send.svg") border-box center no-repeat;
+  border: 0;
+
+  height: 50px;
+  width: 70px;
+  z-index: 10;
+}
+
+.send:hover {
+  background-color: #ea7600;
+}
+
+input::placeholder {
+  color: #757575;
+  opacity: 0.2;
+}
+
+.contact-info {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.blue {
+  color: var(--blue-color);
 }

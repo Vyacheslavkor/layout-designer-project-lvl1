@@ -233,7 +233,7 @@ header::before {
   background: var(--light-color);
 }
 
-.navigation-link h1 {
+.navigation-link h2 {
   margin-bottom: 40px;
 
   font-weight: normal;
@@ -272,7 +272,7 @@ p {
   width: calc(1110px - 110px - 50% - 15px);
 }
 
-.navigation-link:hover > h1,
+.navigation-link:hover > h2,
 .navigation-link:hover > h3,
 .navigation-link:hover > p {
   color: var(--white-color);

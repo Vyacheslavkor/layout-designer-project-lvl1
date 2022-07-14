@@ -202,7 +202,7 @@ header::before {
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 
   max-width: 1110px;
 
@@ -232,7 +232,7 @@ header::before {
   background: var(--light-color);
 }
 
-.navigation-link h2 {
+.navigation-link > h2 {
   margin-bottom: 40px;
 
   font-weight: normal;

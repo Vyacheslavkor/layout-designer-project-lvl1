@@ -216,7 +216,7 @@ header::before {
 
 .navigation-cart {
   flex-basis: 350px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .navigation-head {

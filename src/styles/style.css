@@ -82,8 +82,7 @@ header {
   margin-bottom: 30px;
 }
 
-#premature-optimization::before,
-#ikea-effect::before,
+.main-background::before,
 header::before {
   position: absolute;
   top: 0;

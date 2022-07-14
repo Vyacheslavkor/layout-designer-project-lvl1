@@ -31,8 +31,9 @@ h1,
 h2,
 h3 {
   margin-top: 0;
+  margin-bottom: 0;
 
-  color: var(--main-dark-color);
+  color: var(--main-color);
   font: 1em/1.2em Neucha, sans-serif;
 }
 
@@ -49,20 +50,23 @@ h3 {
 }
 
 body {
+  margin: 0;
   overflow-x: hidden;
 
   color: #2a2626;
   font: 16px/1.6em "Open Sans", sans-serif;
 }
 
-#ikea-effect,
-header {
-  position: relative;
-
+.light-background {
   background: var(--light-color);
 }
 
-section {
+.brown-background {
+  background: var(--brown-color);
+}
+
+section,
+header {
   position: relative;
 }
 
@@ -78,6 +82,7 @@ section {
   margin-bottom: 30px;
 }
 
+#premature-optimization::before,
 #ikea-effect::before,
 header::before {
   position: absolute;
@@ -97,13 +102,14 @@ header::before {
 
 * {
   box-sizing: border-box;
-
-  margin: 0;
-  padding: 0;
 }
 
 .orange {
   color: var(--main-color);
+}
+
+.dark {
+  color: var(--main-dark-color);
 }
 
 #main-image {
@@ -225,7 +231,6 @@ header::before {
   font-weight: normal;
   font-size: 64px;
   line-height: 1;
-  color: var(--main-dark-color);
   margin-bottom: 40px;
 }
 
@@ -235,6 +240,14 @@ header::before {
 
 .m12-bot {
   margin-bottom: 12px;
+}
+
+.m30-right {
+  margin-right: 30px;
+}
+
+p {
+  margin: 0;
 }
 
 .navigation-link > p {
@@ -253,6 +266,7 @@ header::before {
   color: var(--white-color);
 }
 
+#premature-optimization,
 #ikea-effect {
   top: -300px;
 }
@@ -261,10 +275,9 @@ header::before {
   vertical-align: middle;
   width: 578px;
   height: 434px;
-  margin-right: 30px;
 }
 
-.ikea-image-head {
+.section-head {
   display: flex;
 }
 
@@ -274,6 +287,10 @@ header::before {
 
 .color-secondary {
   color: var(--semi-dark-color);
+}
+
+.color-semi-white {
+  color: var(--semi-white-color);
 }
 
 .cognitive-distortions-name {
@@ -299,6 +316,15 @@ header::before {
   color: var(--white-color);
 }
 
+.how-white {
+  color: var(--brown-color);
+  background: var(--white-color);
+}
+
 .avoid-break {
   break-inside: avoid;
+}
+
+.white {
+  color: var(--white-color);
 }

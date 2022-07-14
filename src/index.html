@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="light-background">
         <div class="container">
-            <h1 class="z-index-10000 header-title"><span class="orange">Когнитивные<br>искажения<br></span>в программировании</h1>
+            <h1 class="z-index-10000 header-title">Когнитивные<br>искажения<br><span class="dark">в программировании</span></h1>
             <img src="images/main.png" alt="Notebook man" id="main-image">
             <article class="columns-2">
                 <p class="col">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
@@ -26,7 +26,7 @@
     <main>
         <section id="video-section">
             <div class="container text-center">
-                <h1 id="video-section-head">Что же это такое,<br><span class="orange">когнитивные искажения</span></h1>
+                <h1 id="video-section-head"><span class="dark">Что же это такое,</span><br>когнитивные искажения</h1>
                 <p id="video-section-text">Что такое когнитивные искажения. Petrovna Channel</p>
                 <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen style="filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15))"></iframe>
             </div>
@@ -34,39 +34,39 @@
         <section id="navigation">
             <div class="navigation-container">
                 <div class="navigation-cart">
-                    <h1 id="navigation-head"><span class="orange">5 когнитивных искажений</span> о существовании которых стоит помнить</h1>
+                    <h1 id="navigation-head">5 когнитивных искажений<span class="orange"> о существовании которых стоит помнить</span></h1>
                 </div>
                 <a href="#ikea-effect" class="navigation-cart navigation-link">
-                    <h1>1</h1>
-                    <h3 class="orange m16-bot">Эффект ИКЕА</h3>
+                    <h1 class="dark">1</h1>
+                    <h3 class="m16-bot">Эффект ИКЕА</h3>
                     <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                 </a>
-                <a href="#opt" class="navigation-cart navigation-link">
-                    <h1>2</h1>
-                    <h3 class="orange m16-bot">Преждевременная оптимизация</h3>
+                <a href="#premature-optimization" class="navigation-cart navigation-link">
+                    <h1 class="dark">2</h1>
+                    <h3 class="m16-bot">Преждевременная оптимизация</h3>
                     <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
                 <a href="#new" class="navigation-cart navigation-link">
-                    <h1>3</h1>
-                    <h3 class="orange m16-bot">Искажение новизны</h3>
+                    <h1 class="dark">3</h1>
+                    <h3 class="m16-bot">Искажение новизны</h3>
                     <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                 </a>
                 <a href="#priceless" class="navigation-cart navigation-link">
-                    <h1>4</h1>
-                    <h3 class="orange m12-bot">Гиперболическое обесценивание</h3>
+                    <h1 class="dark">4</h1>
+                    <h3 class="m12-bot">Гиперболическое обесценивание</h3>
                     <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                 </a>
                 <a href="#plan" class="navigation-cart navigation-link">
-                    <h1>5</h1>
-                    <h3 class="orange m16-bot">Ошибка планирования</h3>
+                    <h1 class="dark">5</h1>
+                    <h3 class="m16-bot">Ошибка планирования</h3>
                     <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
                 </a>
             </div>
         </section>
-        <section id="ikea-effect">
+        <section id="ikea-effect" class="light-background top-300">
             <div class="container">
-                <div class="ikea-image-head">
-                    <img src="images/1.png" alt="Question mans" style="filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15))" class="ikea-image">
+                <div class="section-head">
+                    <img src="images/1.png" alt="Question mans" style="filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15))" class="m30-right">
                     <div>
                         <p class="cognitive-distortions color-secondary">Когнитивные искажения</p>
                         <h1 class="cognitive-distortions-name">Эффект ИКЕА</h1>
@@ -80,7 +80,23 @@
                 </article>
             </div>
         </section>
-        <section></section>
+        <section id="premature-optimization" class="brown-background top-300">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <p class="cognitive-distortions color-semi-white m30-right">Когнитивные искажения</p>
+                        <h1 class="cognitive-distortions-name white m30-right">Преждевременная оптимизация</h1>
+                        <p class="cognitive-distortions-description white m30-right">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+                    </div>
+                    <img src="images/2.png" alt="Rocket man" style="filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15))" class="">
+                </div>
+                <h4 class="how how-white">Как проявляется</h4>
+                <article class="columns-2">
+                    <p class="avoid-break white">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
+                    <p class="avoid-break white">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+                </article>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>

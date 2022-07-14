@@ -265,8 +265,7 @@ p {
   color: var(--white-color);
 }
 
-#premature-optimization,
-#ikea-effect {
+.top-300 {
   top: -300px;
 }
 
